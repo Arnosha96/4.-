@@ -70,5 +70,10 @@ public:
 		min = 0;
 		index = 0;
 	}
+	
+	int HowMany()
+	{
+return (index - min);
+	}
 };
 

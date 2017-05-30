@@ -25,6 +25,7 @@ int main()
 	cout << endl;
 	cout << qu.Pop()<< endl;
 	cout << qu.Pop() << endl;
+	cout <<"Ёлементов в очереди: " << qu.HowMany() <<endl;
 	cout << qu.Pop() << endl;
 	cout << qu.Pop() << endl;
 
